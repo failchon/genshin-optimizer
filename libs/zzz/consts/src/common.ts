@@ -5,7 +5,11 @@ export const otherStatKeys = [
   // Used by calc, likely will be bundled into pando
   'charLvl',
   'enemyDef', // Enemy DEF
+<<<<<<< HEAD
   'enemyDefRed_', // Enemy DEF shred
+=======
+  'enemyDefRed', // Enemy DEF shred
+>>>>>>> 5c81d5200 (Merge with master)
   'enemyRes_', // Enemy Resistance
   'enemyResRed_', // Enemy Resistance Reduction
   'enemyResIgn_', // Enemy Resistance Ignore
