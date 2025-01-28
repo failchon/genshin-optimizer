@@ -1,7 +1,7 @@
 {
-  "name": "gi-keymap",
+  "name": "zzz-keymap",
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "libs/gi/keymap/src",
+  "sourceRoot": "libs/zzz/keymap/src",
   "projectType": "library",
   "tags": [],
   "targets": {}

@@ -2,7 +2,7 @@
   "extends": ["../../../.eslintrc.json"],
   "ignorePatterns": ["!**/*"],
   "parserOptions": {
-    "project": "libs/zzz/keymap/tsconfig.eslint.json"
+    "project": "libs/zzz/util/tsconfig.eslint.json"
   },
   "overrides": [
     {
