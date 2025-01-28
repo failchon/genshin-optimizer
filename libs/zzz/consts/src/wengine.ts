@@ -63,3 +63,17 @@ export const allWengineKeys = [
 ] as const
 
 export type WengineKey = (typeof allWengineKeys)[number]
+
+export const allWengineSubstatKeys = [
+  'atk_',
+  'critDMG_',
+  'critRate_',
+  'def_',
+  'anomProf',
+  'enerRegen_',
+  'hp_',
+  'impact_',
+  'anomMas_',
+  'pen_',
+] as const
+export type WengineSubstatKey = (typeof allWengineSubstatKeys)[number]

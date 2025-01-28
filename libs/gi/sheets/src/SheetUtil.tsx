@@ -80,3 +80,18 @@ export function activeCharBuff(
     equal(input.activeCharKey, buffTargetKey, node),
   ]
 }
+
+export function nonStackBuff(
+  buffName: NonStackBuff,
+  path: string,
+  buffNode: NumNode | number
+) {
+  return [
+    equal(nonStacking[buffName], input.charKey, buffNode),
+    unequal(nonStacking[buffName], input.charKey, buffNode, {
+      path,
+      isTeamBuff: true,
+      strikethrough: true,
+    }),
+  ]
+}
